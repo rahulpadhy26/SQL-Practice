@@ -1,0 +1,4 @@
+1. select * from Movies where Id=6;
+2. select * from Movies where Year between 2000 and 2010;
+3. select * from Movies where Year not between 2000 and 2010;
+4. select Title, Year from Movies limit 5;
