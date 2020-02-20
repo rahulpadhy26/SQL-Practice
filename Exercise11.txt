@@ -1,0 +1,4 @@
+1. select count(*) from Employees where Role='Artist';
+2. select Role, count(*) from Employees group by Role;
+3. select Role, sum(Years_employed) from Employees where Role='Engineer';
+3. select Role, sum(Years_employed) from Employees group by Role having Role='Engineer';
