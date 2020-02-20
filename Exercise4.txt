@@ -1,0 +1,4 @@
+1. select distinct Director from Movies order by Director asc;
+2. select * from Movies order by Year desc limit 4;
+3. select * from Movies order by Title asc limit 5;
+4. select * from Movies order by Title asc limit 5 offset 5;
