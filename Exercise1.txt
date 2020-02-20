@@ -1,0 +1,5 @@
+1. select Title from Movies;
+2. select Director from Movies;
+3. select Title, Director from Movies;
+4. select Title, Year from Movies;
+5. select * from Movies;
