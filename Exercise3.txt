@@ -1,0 +1,4 @@
+1. select * from Movies where Title like 'Toy Story%';
+2. select * from Movies where Director='John Lasseter';
+3. select Title, Director from Movies where Director<>'John Lasseter';
+4. select * from Movies where Title like 'WALL%';
