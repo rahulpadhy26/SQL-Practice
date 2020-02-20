@@ -1,0 +1,2 @@
+1. select Name, Role from Employees where Building is null;
+2. select Buildings.Building_name from Buildings left join Employees on Employees.Building=Buildings.Building_name where Employees.Building is null;
