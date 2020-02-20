@@ -1,0 +1,2 @@
+1. select Director, count(Title) from Movies group by Director;
+2. select Movies.Director, sum(Boxoffice.Domestic_sales + Boxoffice.International_sales) as Total_sales from Movies inner join Boxoffice on Movies.Id=Boxoffice.Movie_id group by Movies.Director;
