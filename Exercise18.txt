@@ -1,0 +1,2 @@
+1. drop table if exists Movies;
+2. drop table if exists Boxoffice;
