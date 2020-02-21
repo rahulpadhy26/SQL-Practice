@@ -1,0 +1,2 @@
+1. delete from Movies where Year < 2005;
+2. delete from Movies where Director = 'Andrew Stanton';
