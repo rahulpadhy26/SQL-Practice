@@ -1,0 +1,4 @@
+1. insert into Movies (Title, Director, Year, Length_minutes) values ('Toy Story 4', 'Josh Cooley', 2019, 100); 
+   select * from Movies;
+2. insert into Boxoffice (Movie_id, Rating, Domestic_sales, International_sales) values (15, 8.7, 340000000, 270000000); 
+   select * from Boxoffice;
